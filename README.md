@@ -24,13 +24,13 @@ Uses mongoose, body-parser, lodash, and express. For security, I'm using jsonweb
     text: "Mow the lawn",
     completed: false,
     completedAt: null,
-    _creator: ObjectID(588511ab88cc370041e4fa80)
+    _creator: ObjectID('588511ab88cc370041e4fa80')
   },
   {
     text: "Take out the trash",
     completed: true,
     completedAt: 1485051437005,
-    _creator: ObjectID(588511ab88cc370041e4fa80)
+    _creator: ObjectID('588511ab88cc370041e4fa80')
   }]
 }
 ```
