@@ -1,7 +1,9 @@
 # node-todo-api-heroku
 
-My node-todo-api project, but designed to be deployed to heroku. The base Heroku URL I have created 
+My node-todo-api project, but designed to be deployed to heroku. The base Heroku URL I have created
 is ``https://young-citadel-38771.herokuapp.com`` **Please Note** the root path does nothing. You must access through the API.
+
+Uses mongoose, body-parser, lodash, and express. For tests, I am using mocha, expect, and supertest.
 
 ---
 ## Basic API
@@ -31,7 +33,7 @@ is ``https://young-citadel-38771.herokuapp.com`` **Please Note** the root path d
 #### GET
 
 ``/todos`` returns list of all todo objects
-  
+
 ``/todos/:id`` returns todo object of the id provided
 
 #### POST
@@ -40,7 +42,7 @@ is ``https://young-citadel-38771.herokuapp.com`` **Please Note** the root path d
 
 #### PATCH
 
-``/todos/:id`` update the todo item of the id specified. In the request body, set raw json object of what you want to change. 
+``/todos/:id`` update the todo item of the id specified. In the request body, set raw json object of what you want to change.
 completedAt cannot be modified by client
 
 #### DELETE
